@@ -1,0 +1,29 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/app.css -o ./build/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellmansetiyoko/front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellmansetiyoko/front-end/issues"
+  },
+  "homepage": "https://github.com/hellmansetiyoko/front-end#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "alpinejs": "^3.5.1"
+  }
+}
